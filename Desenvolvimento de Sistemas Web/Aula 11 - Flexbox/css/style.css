@@ -1,0 +1,124 @@
+.divcomfloat {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 10px;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  background-color: #DDDDDD;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container div {
+  background-color: red;
+  margin: 10px;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.container2 {
+  background-color: #DDDDDD;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.div1 {
+  flex: 1;
+  background-color: red;
+  margin: 10px;
+  padding: 10px;
+  font-size: 10px;  
+}
+
+.div2 {
+  flex: 1;
+  background-color: red;
+  margin: 10px;
+  padding: 10px;
+  font-size: 10px;  
+}
+
+.div3 {
+  flex: 1;
+  background-color: red; 
+  margin: 10px;
+  padding: 10px;
+  font-size: 10px;  
+}
+
+.container3 {
+  background-color: #DDDDDD;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.container3 div {
+  width: 200px;
+  background-color: red;
+  margin: 10px;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.container4 {
+  background-color: #DDDDDD;
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container4 div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.container5 {
+  background-color: #DDDDDD;
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.container5 div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.div11 {
+  align-self: flex-end;
+}
+
+.div10 {
+  align-self: flex-start;
+}
+
+.div9 {
+  order: -1;
+}
+
+.div5 {
+  order: 2;
+}
