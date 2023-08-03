@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Dual Boot Tela */
+.escolha {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0078d4;
+    color: #fafafc;
+}
+
+.caixa {
+    padding-left: 400px;
+    padding-top: 50px;
+}
+
+/* Opções de escolha dual boot */
+
+.opções {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonEscolha {
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.buttonEscolha:hover {
+    border: 3px white solid;
+}
+
+/* Fontes */
+#titulo {
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
