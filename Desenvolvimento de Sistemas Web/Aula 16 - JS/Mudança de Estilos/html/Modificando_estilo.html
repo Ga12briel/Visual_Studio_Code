@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Modificando Estilos</title> 
+    </head>
+    <body>
+        <h3>Manipulando HTML</h3>
+        <div id="area">Alguma coisa</div>
+        <br><br>
+        <button onclick="document.getElementById('area').innerHTML = 'Clicaram no botão';">Clique Aqui</button>
+        <button onclick="this.innerHTML = 'Botão clicado';"></button>
+        <button type="button" onclick="trocarnomeDiv01()">Clique aqui</button>
+        <button type="button" onclick="trocarnomeDiv02()">Clique aqui</button>
+        <br><br>
+        <hr>
+        <h3>Valor em um formulário</h3>
+        <input type="text" name="form1" id="form1">
+        <button onclick="trocarnomeDiv03()">Clique aqui</button>
+        <br><br>
+        <hr>
+        <h3>Manipulando estilo</h3>
+        <div id="quadrado" style="border: solid 1px #000; width: 100px; height: 100px;"></div>
+        <br><br>
+        <button onclick="modificaEstilo('#FF0000', '200px')">Vermelho</button>
+        <button onclick="modificaEstilo('#00FF00', '150px', '20px')">Verde</button>
+        <button onclick="modificaEstilo('#0000FF', '150px', '200px')">Azul</button>
+        <script type="text/javascript" src="../js/script.js"></script>
+    </body>
+</html>
