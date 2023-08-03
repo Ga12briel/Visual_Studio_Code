@@ -1,0 +1,62 @@
+        body {
+            color:white;
+            background-color: black;
+        }
+        table {
+            font-family: arial, sans-serife;
+            border-collapse: collapse;
+            width: 35%;
+        }
+
+        #container {
+            display: inline-block;
+            position: relative;
+}
+
+        #container figcaption {
+            position: absolute;
+            top: 30px;;
+            right: 10px;
+            font-size: 40px;
+            color: white;
+            text-shadow: 0px 0px 5px black;
+}
+        #container2 {
+            display: inline-block;
+            position: relative;
+}
+
+        #container2 figcaption {
+            position: absolute;
+            top: 25px;;
+            right: 0px;
+            font-size: 40px;
+            color: white;
+            text-shadow: 0px 0px 5px black;
+}
+        #container3 {
+            display: inline-block;
+            position: relative;
+}
+
+        #container3 figcaption {
+            position: absolute;
+            top: 30px;;
+            right: 0px;
+            font-size: 30px;
+            color: white;
+            text-shadow: 0px 0px 5px black;
+}
+        #container4 {
+            display: inline-block;
+            position: relative;
+}
+
+        #container4 figcaption {
+            position: absolute;
+            top: 25px;;
+            right: 9px;
+            font-size: 40px;
+            color: white;
+            text-shadow: 0px 0px 5px black;
+}

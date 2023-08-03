@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <style>
+        body {
+            color:white;
+            background-color: black;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela</title>
+</head>
+<center><body>
+    <h1>Tabela com Bordas</h1>
+    <table border="2">
+        <caption>Lista de Compras</caption>
+        <tr>
+            <th>Frutas</th>
+            <th>Verduras</th>
+        </tr>
+
+        <tr>
+            <td>Maçãs</td>
+            <td>Alface</td>
+        </tr>
+
+        <tr>
+            <td>laranja</td>
+            <td>Couve</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>Tabelas com Thead, Tbody, Tfoot</h1>
+    <table border="2">
+        <caption>Relatórios</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>David</td>
+                <td>36</td>
+            </tr>
+            
+            <tr>
+                <td>Miguel</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total: </td>
+                <td>61</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+
+    <h1>Tabelas Mescladas 1</h1>
+    <table border="1">
+        <caption>Rowspan</caption>
+        <thead>
+            <tr>
+                <th>Nome:</th>
+                <td>Rogério Costa</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2">Telefone:</th>
+                <td>(11) 9856-6677</td>
+            </tr>
+            <tr>
+                <td>(11) 5214-2314</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h1>Tabelas Mescladas 2</h1>
+    <table border="1">
+        <caption>Colspan</caption>
+        <thead>
+            <tr>
+                <th colspan="3">Nome:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rogério</td>
+                <td>Matheus</td>
+                <td>José Antônio</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</center></body>
+</html>
