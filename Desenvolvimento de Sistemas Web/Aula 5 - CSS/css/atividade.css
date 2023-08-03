@@ -1,0 +1,22 @@
+#cafeif {
+  color: green;
+  text-align: center;
+}
+
+#cardapio {
+    text-align: center;
+}
+
+.img {
+  text-align: center;
+}
+
+#a {
+  text-align: center;
+  font-size: 30px;
+}
+
+#b {
+  position: relative;
+  top: 15px;
+}

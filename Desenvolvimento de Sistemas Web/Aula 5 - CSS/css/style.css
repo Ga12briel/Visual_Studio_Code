@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+a.vbranco {
+    color:darkorange;
+}
+
+a.vtinto {
+    color:dodgerblue;
+}
+
+h3.corb{
+    color:darkgrey;
+}
+
+h3.cort {
+    color:aquamarine;
+}
+
+#cb {
+    color:darkcyan;
+    font-weight:  800px;
+}
+
+#branco {
+    background-color: gray;
+}
+
+#tinto {
+    background-color: coral;
+}

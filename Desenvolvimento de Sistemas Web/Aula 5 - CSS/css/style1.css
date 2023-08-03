@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.div {
+    width: 100%;
+    height: 300px;
+    background-color: cadetblue;
+}
+
+.menu {
+    width: 200px;
+    height: 300px;
+    background-color: beige;
+    float: left;
+}
+
+.conteudo {
+    width: 100% ;
+    height: 300px;
+    background-color: darkorange;
+}
+
+.rodape {
+    width: 100% ;
+    height: 50px;
+    background-color: cyan;   
+}
