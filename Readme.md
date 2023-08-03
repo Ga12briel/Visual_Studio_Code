@@ -1,0 +1,1 @@
+Esse repositório tem como principal função salvar todos meus arquivos de Visual Studio Code!
