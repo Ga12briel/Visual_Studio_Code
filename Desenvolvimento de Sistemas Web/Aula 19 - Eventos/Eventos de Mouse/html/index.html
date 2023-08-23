@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Evento de Mouse</title>
+</head>
+<body>
+  <button onmousedown="apertouMouse()" onmouseup="soltouMouse()" onmouseover="mouseEmCima()" onmouseout="mouseSaiuDeCima()" onmousemove="moveuMouse()">Acione um evento aqui</button>
+  <br><br>
+  <button onclick="clicou()">Acione um evento aqui</button>
+  <br><br>
+  <button oncontextmenu="return botaoDireito()">Acione um evento aqui</button>
+  <br><br>
+  <button ondblclick="cliqueDuplo()">Acione um evento aqui</button>
+  <br><br>
+  <div id="area" onclick="clicar()" onmouseover="entrar()" onmouseout="sair()">Aproxime o mouse...</div>
+  <script src="../js/script.js"></script>
+</body>
+</html>
