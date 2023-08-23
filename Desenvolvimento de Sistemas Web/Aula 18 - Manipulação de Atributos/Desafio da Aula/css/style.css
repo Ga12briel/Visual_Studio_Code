@@ -5,68 +5,53 @@
   background-color: #f0f8ff;
 }
 
-.container {
-  width: 100%;
+main {
+  display: flex;
+  width: 100vw;
   height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.form {
-  width: 500px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+form {
+  position: relative;
   border: 1px solid blue;
-  border-radius: 25px;;
+  border-radius: 25px;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.titulo {
-  color: blue;
+#titulo {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.campo {
-  margin-right: 10px;
+  color: blue;
+  font-size: 30px;
 }
 
 #email, #senha {
-  height: 25px;
+  width: 200px;
+  font-size: 15px;
+  padding: 0px 25px 0px 10px;
 }
 
-.input {
-  width: 400px;
-  height: 30px;
-  margin: 10px;
-  font-size: 20px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+.btn {
   position: relative;
 }
 
-img {
-  width: 16px;
-  height: 16px;
-}
-
-.botao {
+.bi {
+  cursor: pointer;
+  font-size: 15px;
+  height: 15px;
+  width: 15px;
   position: absolute;
-  right: 85px;
-  border: none;
-  width: 16px;
-  height: 16px;
+  right: 3%;
+  bottom: 10%;
+  color: blue;
 }
 
-.ocultar {
-  display: block;
-}
-
-.mostrar {
-  display: none
+#email {
+  margin: 0px 5px 0px 0px;
 }
