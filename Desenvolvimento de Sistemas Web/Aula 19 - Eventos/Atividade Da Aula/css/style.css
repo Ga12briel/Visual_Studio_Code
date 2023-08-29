@@ -1,13 +1,16 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+* { /* Configurações de toda a página */
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', 'Luckiest Guy', 'Nunito', sans-serif, 'Times New Roman', Times, serif;
+  box-sizing: border-box;  
+  font-family: 'Roboto', 'Luckiest Guy', 'Nunito', sans-serif ,'Times New Roman', Times, serif;
 }
 
-/* Header */
-
 .container {
+  /* background-color: beige; */
+  /* max-width: 1280px; */
   margin: 0 auto;
   padding: 0 2%;
 }
@@ -17,7 +20,7 @@ header {
   background-color: #080307;
 }
 
-.logo img {
+.logo img{
   height: 100px;
   width: 180px;
 }
@@ -30,7 +33,7 @@ header {
   float: right;
 }
 
-.menu-desk ul {
+.menu-desk ul{
   margin-top: 30px;
 }
 
@@ -57,37 +60,217 @@ header {
   clear: both;
 }
 
-#produto:hover {
-  transition: 0.5s;
-  font-size: 20px;
+.banner {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  background: url(../img/Banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#equipe:hover {
-  transition: 0.5s;
-  font-size: 20px;
+.botao {
+  width: 200px;
+  text-align: center;
+  padding: 16px 32px;
+  text-decoration: none;
+  background-color: white;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 320px;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 30px;
 }
 
-#sobre:hover {
-  transition: 0.5s;
-  font-size: 20px;
+.btn:hover {
+  background-color: rgba(133, 195, 231, 0.7);
+  border: 2px solid rgb(red, green, blue);
+  color: rgb(red, green, blue);
 }
 
-#contato:hover {
-  transition: 0.5s;
-  font-size: 20px;
-}
-
-.produto {
-  background-color: gray;
+#opcoes {
   width: 80px;
-  height: auto;
-  border: 3px solid #1e90ff;
+  height: 200px;
+  border: 3px solid blue;
+  background-color: green;
+  color: green;
   position: absolute;
-  right: 270px;
+  right: 258px;
+  top: 60px;
   display: none;
-  flex-direction: row;
 }
 
-.produtos {
-  border: 1px solid #1e90ff;
+#opcoes2 {
+  width: 80px;
+  height: 200px;
+  border: 3px solid blue;
+  background-color: green;
+  color: green;
+  position: absolute;
+  right: 178px;;
+  top: 60px;
+  display: none;
+}
+
+/* Diferenciais */
+
+.diferenciais {
+  padding: 30px 0px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.icones-diferenciais {
+  margin-top: 35px;
+}
+
+.box-icone-single {
+  float: left;
+  width: 33.3%;
+  padding: 0 10px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.box-icone-single h2 span {
+  color: rgba(133, 195, 231, 0.7);
+  font-size: 40px;
+}
+
+.box-icone-single p {
+  font-size: 15px;
+  margin-top: 20px; 
+}
+
+.titulo {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 27px;
+  text-align: center;
+  color: #1e90ff;
+  margin-top: 40px;
+}
+
+/* Cards */
+
+.cards {
+  padding: 30px 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.card-single {  
+  display: inline-block;
+  padding: 30px;
+  width: 33%
+}
+
+.card-single img {
+  height: 350px;
+  width: 70%;
+}
+
+.card-single h3 {
+  margin-top: 5px;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.card-single p {
+  margin: 10px 0;
+  font-weight: lighter;
+  font-size: 16px;
+  border-bottom: 2px solid aqua;
+  padding-bottom: 20px;
+}
+
+/* Rodape */
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.link {
+  width: 200px;
+  margin: auto;
+}
+
+.link ul {
+  margin: 20px;
+}
+
+.rodape2 {
+  margin: 0px;
+  background-color: #138bff;
+  display: flex;
+}
+
+.rodape2 p {
+  margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .logo img {
+    height: 50px;
+    width: 80px;
+  }
+
+  .icones-diferenciais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-icone-single {
+    padding: 10px;
+  }
+    
+  .cards {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+  }
+
+  .card-single {  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-single img {
+    height: 350px;
+    width: 300px;
+  }
+
+  .rodape {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .menu-desk ul{
+    margin-top: 15px;
+  }
+
+  .menu-desk li {
+    display: inline-block;
+    padding: 0 3px;
+    font-weight: lighter;
+  }
 }
