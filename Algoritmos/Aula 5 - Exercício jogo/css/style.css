@@ -22,6 +22,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 #jogo {
@@ -32,6 +33,7 @@ main {
   width: 100px;
   height: 100px;
   position: absolute;
+  background-color: #ccc;
   display: none;
 }
 
@@ -40,10 +42,15 @@ main {
   height: 100px;
   position: absolute;
   background-color: #ccc;
+  display: none;
 }
 
 .jogada {
   position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  color: black;
 }
 
 #um {
@@ -58,7 +65,7 @@ main {
 
 #tres {
   top: 50px;
-  right: 125px;
+  right: 20px;
 }
 
 #quatro {
@@ -73,7 +80,7 @@ main {
 
 #seis {
   top: 220px;
-  right: 125px;
+  right: 20px;
 }
 
 #sete {
@@ -87,5 +94,9 @@ main {
 }
 #nove {
   top: 380px;
-  right: 125px;
+  right: 20px;
+}
+
+h2 {
+  margin-top: 10px;
 }
