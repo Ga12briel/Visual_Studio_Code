@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Atividade 3</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <h3><a href="../index.html">Voltar para a página inicial.</a></h3>
+    <script>
+      var idade = prompt('Uma idade: ');
+      var c21 = 0;
+      var c50 = 0;
+
+      while(idade>=0 && idade <= 140) {
+        if(idade < 21) {
+          c21++;
+        }else if(idade>50){
+          c50++;
+        }
+        var idade=prompt('Uma idade: ');
+      }
+
+      alert('Total de idades inferiores a 21: ' + c21 + '\n' + 'Total de idades maiores a 50: ' + c50);
+    </script>
+  </body>
+</html>

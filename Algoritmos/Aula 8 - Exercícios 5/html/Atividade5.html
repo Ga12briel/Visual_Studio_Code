@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 5</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <h3><a href="../index.html">Voltar para a página inicial.</a></h3>
+    <script>
+      var num = 1;
+      var prod = 1;
+      var soma = 0;
+      while (num !== 0) {
+        num = parseInt(prompt("Digite um número: "))
+        if (num % 2 == 0) {
+          soma = soma + num
+        } else {
+          prod = prod * num
+        }
+      }
+      alert("A soma dos números pares é: "+soma)
+        alert("A produto dos números impares é: "+prod)
+    </script>
+  </body>
+</html>
