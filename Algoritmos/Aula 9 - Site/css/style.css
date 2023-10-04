@@ -2,17 +2,40 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+
+}
+
+body {
   background-image: url('../img/mat.png');
-  width: 100vw;
-  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
 #titulo {
   font-family: 'Comfortaa', cursive;
-  display: flex;
-  justify-content: center;
   padding-top: 200px;
   font-size: 70px;
+}
+
+.botaoI {
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+  margin: 30px;
+  height: 30px;
+  width: 200px;
+  background-color: gray;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.botoesI {
+  margin-top: 10%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: wrap;
 }
