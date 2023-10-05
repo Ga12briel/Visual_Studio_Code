@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Atividade 16</title>
+  </head>
+  <body>
+    <h3><a href="../index.html">Voltar para a página inicial.</a></h3>
+    <script>
+      base = parseInt(prompt("Digite a base inteira sendo  maior do que 1: "));
+      expoente = parseInt(prompt("Digite o expoente inteiro sendo  maior do que 1: "));
+      if (base >= 2 && expoente > 1) {
+        var potencia = 1;
+        for (i = 1; i <= expoente; i++) {
+
+          potencia = potencia * base;
+        }
+        alert('Potência: '+ potencia);
+      } else {
+        alert('Não satisfazem');
+      }
+    </script>
+  </body>
+</html>

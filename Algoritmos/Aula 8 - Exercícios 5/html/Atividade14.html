@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Atividade 14</title>
+  </head>
+  <body>
+    <h3><a href="../index.html">Voltar para a página inicial.</a></h3>
+    <script>
+      var soma = 0;
+      var i = 1;
+      for (i = 1; i <= 100; i++) {
+        soma = soma + i;
+        document.write(i,", ");
+      }
+      alert("A soma dos números de 1 a 100 é: "+ soma)
+      document.write('<br><br>')
+      var subtracao = 100;
+      for (i = 100; i >= 1; i--) {
+        subtracao = subtracao - i;
+      } 
+      alert("A subtração dos números de 1 a 100 é: " + subtracao)
+    </script>
+  </body>
+</html>
