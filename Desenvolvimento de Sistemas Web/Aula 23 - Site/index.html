@@ -1,62 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Leirnet - Seriviço Online de Streaming</title>
-  <!-- Link Css-->
-  <link rel="stylesheet" href="assets/css/style.css">
-  <!-- FivIcon -->
-  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-  <!-- Fontes -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-  <!-- Header -->
-  <header class="header">
-    <div class="container">
-      <a href="index.html" class="logo">
-        <img src="assets/img/LeirNet.png" alt="LeirNet">
-      </a>
-      <div class="header-actions">
-        <button class="search"><ion-icon name="search-outline"></ion-icon></button>
-        <div class="lan-wrapper">
-          <label for="languege"><ion-icon name="globe-outline"></ion-icon></label>
-          <select name="language" id="language">
-            <option value="en">EN</option>
-            <option value="es">ES</option>
-            <option value="br">BR</option>
-          </select>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leirnet - Seriviço Online de Streaming</title>
+    <!-- Link Css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- FivIcon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="overlay" data-overlay></div>
+        <a href="index.html" class="logo">
+          <img src="assets/img/LeirNet.png" alt="LeirNet">
+        </a>
+        <div class="header-actions">
+          <button class="search"><ion-icon name="search-outline"></ion-icon></button>
+          <div class="lan-wrapper">
+            <label for="language"><ion-icon name="globe-outline"></ion-icon></label>
+            <select name="language" id="language">
+              <option value="en">EN</option>
+              <option value="es">ES</option>
+              <option value="br">BR</option>
+            </select>
+          </div>
+          <button class="btn btn-primary">Entrar</button>
         </div>
-        <button class="btn btn-primary">Entrar</button>
+        <button class="btn-mobile" data-menu-open><ion-icon name="menu-outline"></ion-icon></button>
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="index.html"><img src="assets/img/LeirNet.png" alt="Logo"></a>
+            <button class="menu-close" data-menu-close><ion-icon name="close-outline"></ion-icon></button>
+          </div>
+          <ul class="navbar-list">
+            <li><a href="index.html" class="navbar-link">Home</a></li>
+            <li><a href="#" class="navbar-link">Filmes</a></li>
+            <li><a href="#" class="navbar-link">Bombando</a></li>
+            <li><a href="#" class="navbar-link">Series</a></li>
+            <li><a href="#" class="navbar-link">Preço</a></li>
+          </ul>
+          <ul class="navbar-social-list">
+            <li><a href="#" class="navbar-social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#" class="navbar-social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#" class="navbar-social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#" class="navbar-social-link"><ion-icon name="logo-youtube"></ion-icon></a></li>
+        </nav>
       </div>
-      <button class="btn-mobile"><ion-icon name="menu-outline"></ion-icon></button>
-      <nav class="navbar active">
-        <div class="navbar-top">
-          <a href="index.html"><img src="assets/img/LeirNet.png" alt="Logo"></a>
-          <button class="menu-close"><ion-icon name="close-outline"></ion-icon></button>
-        </div>
-        <ul class="navbar-list">
-          <li><a href="index.html" class="navbar-link">Home</a></li>
-          <li><a href="#" class="navbar-link">Filmes</a></li>
-          <li><a href="#" class="navbar-link">Bombando</a></li>
-          <li><a href="#" class="navbar-link">Series</a></li>
-          <li><a href="#" class="navbar-link">Preço</a></li>
-        </ul>
-        <ul class="navbar-social-list">
-          <li><a href="#" class="navbar-social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
-          <li><a href="#" class="navbar-social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
-          <li><a href="#" class="navbar-social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
-          <li><a href="#" class="navbar-social-link"><ion-icon name="logo-youtube"></ion-icon></a></li>
-      </nav>
-    </div>
-  </header>
-  <!-- Ion Icons -->
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  <!-- Link Js -->
-  <script src="assets/js/script.js"></script>
-</body>
+    </header>
+    <!-- Ion Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Link Js -->
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
