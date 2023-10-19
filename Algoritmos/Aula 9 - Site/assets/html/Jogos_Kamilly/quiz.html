@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../css/Jogos_Kamilly/quiz.css">
+  <title>Quistória</title>
+</head>
+<body>
+  <header id="header" onclick="voltar(this.id)">
+    <h2>Quistória</h2>
+    <h3>Brasil</h3>
+    <div class="bolinha"></div>
+  </header>
+  <main>
+    <div class="perguntas1">
+      <div class="per1" id="classe1">
+        <h4 id="h41">Pergunta 1</h4>
+        <p id="p1">Quem descobriu o Brasil?</p>
+        <ol type="A" id="ol1">
+          <li id="li1">Cristovão Colombo</li>
+          <li id="li12">Pedro Alvares Cabral</li>
+          <li id="li13">Pedro de Alcantera</li>
+          <li id="li14">Dom Pedro I</li>
+        </ol>
+
+        <input id="resp1" placeholder="Digite a letra" autocomplete="off" onkeydown="if(event.keyCode === 13 || event.keyCode === 32) conf1()">
+        <button onclick="conf1()" class="botaoConf" id="respA">Conferir</button>
+      </div>
+
+      <div class="per2" id="classe2">
+        <h4 id="h42">Pergunta 2</h4>
+        <p id="p2">Qual o nome que se dá ao governante do Egito Antigo?</p>
+        <ol type="A"  id="ol2">
+          <li id="li2">Cleopáta</li>
+          <li id="li22">Presidente</li>
+          <li id="li23">Faraó</li>
+          <li id="li24">Rei</li>
+        </ol>
+        
+        <input id="resp2" placeholder="Digite a letra" autocomplete="off" onkeydown="if(event.keyCode === 13 || event.keyCode === 32) conf2()">
+        <button onclick="conf2()" class="botaoConf" id="respB">Conferir</button>
+
+      </div>
+
+    </div>
+
+    <div class="par1">
+      <img src="../../img/Par1.png">
+    </div>
+    
+    <div class="par1versao2">
+      <img src="../../img/Par1 (2).png">
+    </div>
+    
+    <div class="par2">
+      <img src="../../img/Par2.png">
+    </div>
+    
+    <div class="par2versao2">
+      <img src="../../img/Par2 (2).png">
+    </div>
+    
+
+    
+    <div class="perguntas2">
+      <div class="per3" id="classe3">
+        <h4 id="h43">Pergunta 3</h4>
+        <p id="p3">Em que ano ocorreu a Declaração de Independência do Brasil?</p>
+        <ol type="A" id="ol3">
+          <li id="li3">1522</li>
+          <li id="li32">2000</li>
+          <li id="li33">2023</li>
+          <li id="li34">1822</li>
+        </ol>
+
+        <input id="resp3" placeholder="Digite a letra" autocomplete="off" onkeydown="if(event.keyCode === 13 || event.keyCode === 32) conf3()">
+        <button onclick="conf3()" class="botaoConf" id="respC">Conferir</button>
+      </div>
+
+      <div class="per4" id="classe4">
+        <h4 id="h44">Pergunta 4</h4>
+        <p id="p4">Quem vivia no Brasil antes da colonização?</p>
+        <ol type="A" id="ol4">
+          <li id="li4">Europeu</li>
+          <li id="li42">Indianos</li>
+          <li id="li43">Indígenas</li>
+          <li id="li44">Brasileiros</li>
+        </ol>
+        
+        <input id="resp4" placeholder="Digite a letra" autocomplete="off" onkeydown="if(event.keyCode === 13 || event.keyCode === 32) conf4()">
+        <button onclick="conf4()" class="botaoConf" id="respD">Conferir</button>
+      </div>
+    </div>
+    
+    <div class="par1">
+      <img src="../../img/Par3.png">
+    </div>
+    
+    <div class="par1versao2">
+      <img src="../../img/Par3 (2).png">
+    </div>
+    
+    <div class="par2">
+      <img src="../../img/14.png">
+    </div>
+    
+    <div class="par2versao2">
+      <img src="../../img/Par5.png">
+    </div>
+
+    <div class="perguntas3">
+
+      <div class="per5" id="classe5">
+        <h4 id="h45">Pergunta 5</h4>
+        <p id="p5">Quais são as etnias reconhecidas no Brasil?</p>
+        <ol type="A" id="ol5">
+          <li id="li5">Amarela, preto e rosa</li>
+          <li id="li52">Todas, menos verde e azul</li>
+          <li id="li53">Indígena, preta, parda, branca e asiática</li>
+          <li id="li54">Branca, preta, parda, indígena ou amarela</li>
+        </ol>
+        
+        <input id="resp5" placeholder="Digite a letra" autocomplete="off" onkeydown="if(event.keyCode === 13 || event.keyCode === 32) conf5()">
+        <button onclick="conf5()" class="botaoConf" id="respE">Conferir</button>
+      </div>
+
+      <div class="per6" id="classe6">
+        <h4 id="h46">Pergunta 6</h4>
+        <p id="p6">Em que ano ocorreu a Ditadura Militar?</p>
+        <ol type="A" id="ol6">
+          <li id="li6">De 1964 a 1984</li>
+          <li id="li62">De 1964 a 1985</li>
+          <li id="li63">De 1984 a 1987</li>
+          <li id="li64">De 1984 a 1999</li>
+        </ol>
+      
+        <input id="resp6" placeholder="Digite a letra" autocomplete="off" onkeydown="if(event.keyCode === 13 || event.keyCode === 32) conf6()">
+        <button onclick="conf6()" class="botaoConf" id="respF">Conferir</button>
+      </div>
+    </div>
+
+    <div class="par3">
+      <img src="../../img/16.png">
+    </div>
+    
+    <div class="par3versao2">
+      <img src="../../img/15.png">
+    </div>
+    
+    <div class="par4">
+      <img src="../../img/Par6 (2).png">
+    </div>
+    
+    <div class="par4versao2">
+      <img src="../../img/18.png">
+    </div>
+
+
+    <button onclick="ponto(this.id)" class="botaoConf" id="ponto">Pontuação</button>
+
+    <div class="mens" id="mens" onclick="reiniciar(this.Id)">
+      Obrigado pela participação!
+    </div>
+
+  </main>
+
+  <!-- Qual o nome do presidente do Brasil que ficou conhecido como Jango? -->
+  <script src="../../js/Jogos_Kamilly/quiz.js"></script>
+</body>
+</html>

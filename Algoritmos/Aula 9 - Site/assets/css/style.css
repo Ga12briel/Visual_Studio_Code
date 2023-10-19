@@ -61,6 +61,10 @@ body.active {
   height: auto;
 }
 
+#mate {
+  background-color: rgb(128, 58, 58);
+}
+
 /* --------------------------- */
 /* HEADER                      */
 /* --------------------------- */

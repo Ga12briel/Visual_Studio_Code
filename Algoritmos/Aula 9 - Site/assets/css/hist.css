@@ -1,0 +1,74 @@
+* {
+  margin-top: auto;
+  padding: 0;
+  
+  font-family: Comforta, cursive;
+}
+body {
+  background-image: url(../img/backgroundPadrao.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(243, 226, 226);
+}
+h2 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
+}
+h3 {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+.bolinha {
+  background-color: #E64444;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: -168px;
+  margin-left: 40%;
+}
+.jogos {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.quiz img{
+  padding-top: -200px;
+  width: 300px;
+  border: 3px solid black;
+  cursor: pointer;
+}
+.quiz img:hover {
+  width: 350px;
+  transition: 0.3s ease-in-out;
+}
+.quiz p {
+  text-align: center;
+}
+.cruzadinha img{
+  width: 300px;
+  border: 3px solid black;
+  cursor: pointer;
+}
+.cruzadinha img:hover {
+  width: 350px;
+  transition: 0.3s ease-in-out;
+}
+.cruzadinha p {
+  text-align: center;
+}
+.jogoVelha img{
+  background-color: #E46D6D;
+  width: 300px;
+  border: 3px solid black;
+  cursor: pointer;
+}
+.jogoVelha img:hover {
+  width: 350px;
+  transition: 0.3s ease-in-out;
+}
+.jogoVelha p {
+  text-align: center;
+}

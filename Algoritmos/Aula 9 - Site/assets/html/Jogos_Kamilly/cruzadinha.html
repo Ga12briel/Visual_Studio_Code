@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../css/Jogos_Kamilly/cruzadinha.css">
+  <title>StudHard-cruzostória</title>
+</head>
+<body>
+  <header id="header" onclick="voltar(this.id)">
+    <h2>Cruzastória</h2>
+    <h3>Da Europa até o Brasil</h3>
+    <div class="bolinha"></div>
+  </header>
+
+  <main>
+    <!-- primeira cruzada -->
+    <div class="primeira-cruzada">
+      <div class="barco">
+        <div>1</div>
+        <input class="input" id="priQua1" autocomplete="off">
+        <input class="input" id="segQua1" autocomplete="off">
+        <input class="input" id="terQua1" autocomplete="off">
+        <input class="input" id="quaQua1" autocomplete="off">
+        <input class="input" id="quinQua1" autocomplete="off">
+      </div>
+
+      <div class="dois"> 2 </div>
+      <div class="oceano">
+        <input class="input" id="priQua2" autocomplete="off">
+        <input class="input" id="segQua2" autocomplete="off">
+        <input class="input" id="terQua2" autocomplete="off">
+        <input class="input" id="quaQua2" autocomplete="off">
+        <input class="input" id="quinQua2" autocomplete="off">
+      </div>
+
+      <div class="tres"> 3 </div>
+      <div class="roupa">
+        <input class="input" id="priQua3" autocomplete="off">
+        <input class="input input1" id="segQua3" autocomplete="off">
+        <input class="input" id="terQua3" autocomplete="off">
+        <input class="input" id="quaQua3" autocomplete="off">
+      </div>
+
+      <div class="qua"> 4 </div>
+      <div class="euro">
+        <input class="input" id="priQua4" autocomplete="off">
+        <input class="input" id="segQua4" autocomplete="off">
+        <input class="input" id="terQua4" autocomplete="off">
+        <input class="input" id="quaQua4" autocomplete="off">
+        <input class="input" id="quinQua4" autocomplete="off">
+        <input class="input" id="sexQua1" autocomplete="off">
+      </div>
+
+      <div class="cin"> 5 </div>
+
+      <div class="din1">
+        <input class="input" id="priQua5" autocomplete="off">
+        <input class="input" id="segQua5" autocomplete="off">
+        <input class="input" id="terQua5" autocomplete="off">
+        <input class="input" id="quaQua5" autocomplete="off">
+        <input class="input input2" id="quinQua5" autocomplete="off">
+        <input class="input" id="sexQua2" autocomplete="off">
+        <input class="input" id="setQua1" autocomplete="off">
+      </div>
+
+    </div>
+
+
+    <button class='button1' onclick="conferir1()" id="btn1">Conferir</button>
+
+    <div class="meninas">
+      <img src="../../img/17.png" id="meninas">
+    </div>
+    <div class="seta1">
+      <img src="../../img/seta1.png">
+    </div>
+    <div class="passos1" id="passos1">
+      <img src="../../img/passos1.png">
+    </div>
+
+    <div class="dica1">1- Veículo usado para pescar; <br> 2- Um monte de água salgada; <br> 
+      3- É guardado no guarda-roupa; <br>  4- Quem nasce na Europa; <br> 
+      5- É guardado no cofre do banco.</div>
+
+    <!-- segunda cruzada -->
+    <div class="segunda-cruzada">
+      
+      
+      <div class="ilha">
+        <div> 1</div>
+        <input class="input" id="priQua6" autocomplete="off">
+        <input class="input" id="segQua6" autocomplete="off">
+        <input class="input" id="terQua6" autocomplete="off">
+        <input class="input" id="quaQua6" autocomplete="off">
+      </div>
+
+      <div class="dois2">2</div>
+
+      <div class="agua">
+        <input class="input" id="priQua7" autocomplete="off">
+        <input class="input" id="segQua7" autocomplete="off">
+        <input class="input" id="terQua7" autocomplete="off">
+      </div>
+    
+      <div class="tres2">3</div>
+      
+      <div class="escravo">
+        <input class="input" id="priQua8" autocomplete="off">
+        <input class="input" id="segQua8" autocomplete="off">
+        <input class="input" id="terQua8" autocomplete="off">
+        <input class="input" id="quaQua7" autocomplete="off">
+        <input class="input input3" id="quinQua6" autocomplete="off">
+        <input class="input" id="sexQua3" autocomplete="off">
+      </div>
+    
+      <div class="qua2"> 4 </div>
+
+      <div class="din2">
+        <input class="input" id="priQua9" autocomplete="off">
+        <input class="input" id="segQua9" autocomplete="off">
+        <input class="input" id="terQua9" autocomplete="off">
+        <input class="input input4" id="quaQua8" autocomplete="off">
+        <input class="input" id="quinQua7" autocomplete="off">
+        <input class="input input5" id="sexQua4" autocomplete="off">
+      </div>
+    
+    </div>
+    
+    <button class='button2' onclick="conferir2()" id="btn2">Conferir</button>
+    
+    <div class="meninas2">
+      <img src="../../img/17.png" id="meninas2">
+    </div>
+    <div class="seta2">
+      <img src="../../img/25.png">
+    </div>
+    <div class="passos2" id="passos2">
+      <img src="../../img/passosInverso.png">
+    </div>
+
+    <div class="dica2" id="dica2">1- Pedaço de terra no meio do mar; <br> 2- Líquido que com o qual tomamos banho; <br>
+      3- Pessoa que foi escravizada; <br> 4- Papel de valor que usamos para comprar coisas.</div>
+
+
+    <!-- terceira cruzada -->
+    <div class="terceira-cruzada" id="terceira-cruzada">
+    
+    
+      <div class="pauBra" id="pauBra">
+        <div> 1</div>
+        <input class="input" id="priQua10" autocomplete="off">
+        <input class="input" id="segQua10" autocomplete="off">
+        <input class="input" id="terQua10" autocomplete="off">
+        <input class="input" id="quaQua9" autocomplete="off">
+        <input class="input" id="quinQua8" autocomplete="off">
+        <input class="input" id="sexQua5" autocomplete="off">
+        <input class="input" id="setQua2" autocomplete="off">
+        <input class="input" id="sla1" autocomplete="off">
+        <input class="input" id="sla2" autocomplete="off">
+      </div>
+    
+      <div class="dois3">2</div>
+    
+      <div class="roupa2">
+        <input class="input" id="priQua11" autocomplete="off">
+        <input class="input" id="segQua11" autocomplete="off">
+        <input class="input" id="terQua11" autocomplete="off">
+        <input class="input" id="quaQua10" autocomplete="off">
+      </div>
+    
+      <div class="tres3">3</div>
+    
+      <div class="ind">
+        <input class="input" id="priQua12" autocomplete="off">
+        <input class="input" id="segQua12" autocomplete="off">
+        <input class="input" id="terQua12" autocomplete="off">
+        <input class="input" id="quaQua11" autocomplete="off">
+        <input class="input" id="quinQua9" autocomplete="off">
+        <input class="input" id="sexQua6" autocomplete="off">
+        <input class="input" id="sla3" autocomplete="off">
+        <input class="input" id="sla4" autocomplete="off">
+      </div>
+    
+      <div class="qua3"> 4 </div>
+    
+      <div class="din3">
+        <input class="input" id="priQua13" autocomplete="off">
+        <input class="input" id="segQua13" autocomplete="off">
+        <input class="input input5" id="terQua13" autocomplete="off">
+        <input class="input" id="quaQua12" autocomplete="off">
+        <input class="input" id="quinQua10" autocomplete="off">
+        <input class="input" id="sexQua7" autocomplete="off">
+        <input class="input" id="setQua3" autocomplete="off">
+      </div>
+    
+    </div>
+    
+    <button class='button3' onclick="conferir3()">Conferir</button>
+    
+    <div class="meninas3">
+      <img src="../../img/17.png" id="meninas3">
+    </div>
+    <div class="seta3">
+      <img src="../../img/26.png">
+    </div>
+    <div class="passos3" id="passos3">
+      <img src="../../img/passos1.png">
+    </div>
+    
+    <div class="dica3" id="dica3">1- Árvore que inspirou o nome do Brasil; <br> 2- Nome aos tecidos que vestem o corpo humano; <br>
+      3- Pessoas que habitavam o Brasil antes dos europeus; <br> 4- O que faz as pessoas serem ricas materialmente.</div>
+
+  <!-- descobrir a senha -->
+    <div class="divSenha">
+      Qual palavra se repetiu nas três fases? <br>
+      Escreva-a na caixinha e anote os números que forem informados. <br>
+      Só assim você conseguirá destrancar a chave e entrar no Brasil. <br> <br>
+      <input type="text" class="senha" id="se1" onkeydown="apertou(event)">
+      <input type="text" class="senha" id="se2" onkeydown="apertou(event)">
+      <input type="text" class="senha" id="se3" onkeydown="apertou(event)">
+      <input type="text" class="senha" id="se4" onkeydown="apertou(event)">
+      <input type="text" class="senha" id="se5" onkeydown="apertou(event)">
+      <input type="text" class="senha" id="se6" onkeydown="apertou(event)">
+      <input type="text" class="senha" id="se7" onkeydown="apertou(event)">
+      <input type="text" class="senha" id="se8" onkeydown="apertou(event)">
+
+      <br><br>
+
+      Digite os códigos na ordem em que foram dados.
+      <br><br>
+      <input type="text" id="senha1" class="senha" onkeyup="soltou(event)">
+      <input type="text" id="senha2" class="senha" onkeyup="soltou(event)">
+      <input type="text" id="senha3" class="senha" onkeyup="soltou(event)">
+      <input type="text" id="senha4" class="senha" onkeyup="soltou(event)">
+      <input type="text" id="senha5" class="senha" onkeyup="soltou(event)">
+      <input type="text" id="senha6" class="senha" onkeyup="soltou(event)">
+      <input type="text" id="senha7" class="senha" onkeyup="soltou(event)">
+      <input type="text" id="senha8" class="senha" onkeyup="soltou(event)">
+    </div>
+
+    <div class="imge">
+      <img src="../../img/Quistória1.png" id="imge">
+    </div>
+
+    <button class='des' onclick="reiniciar()">Reiniciar</button>
+    
+  </main>
+
+  <script src="../../js/Jogos_Kamilly/cruzadinha.js"></script>
+</body>
+</html>

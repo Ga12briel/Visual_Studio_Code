@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Lilita+One&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../../css/Jogos_Yuri/quiz.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- 1 -->
+      <div class="caixa" id="d1">
+        <div class="circulo"></div>
+        <h3 class="pergunta">Pergunta 1</h3>
+        <p>Qual é o nome do nosso planeta?</p>
+        <ol type="a">
+          <li>Vênus</li>
+          <li>Terra</li>
+          <li>Marte</li>
+          <li>Júpiter</li>
+        </ol>
+        <input class="resposta" id="r1" placeholder="Digite a alternativa" />
+        <button class="enviar" id="c1" onclick="conferir1()">Conferir</button>
+        <p class="mudar" id="ce1"></p>
+      </div>
+
+      <!-- 2 -->
+      <div class="caixa" id="d2">
+        <div class="circulo"></div>
+        <h3 class="pergunta">Pergunta 2</h3>
+        <p>Do que as plantas precisam?</p>
+        <ol type="a">
+          <li>Terra, água e ar</li>
+          <li>Luz solar, ar e fogo</li>
+          <li>Água, luz solar e terra</li>
+          <li>Terra, luz solar e fogo</li>
+        </ol>
+        <input class="resposta" id="r2" placeholder="Digite a alternativa" />
+        <button class="enviar" id="c2" onclick="conferir2()">Conferir</button>
+        <p class="mudar" id="ce2"></p>
+      </div>
+
+      <!-- 3 -->
+      <div class="caixa" id="d3">
+        <div class="circulo"></div>
+        <h3 class="pergunta">Pergunta 3</h3>
+        <p>Processo pelo qual o vapor <br> se transforma em água?</p>
+        <ol type="a">
+          <li>Evaporação</li>
+          <li>Condensação</li>
+          <li>Solidificação</li>
+          <li>Fusão</li>
+        </ol>
+        <input class="resposta" id="r3" placeholder="Digite a alternativa" />
+        <button class="enviar" id="c3" onclick="conferir3()">Conferir</button>
+        <p class="mudar" id="ce3"></p>
+      </div>
+
+      <!-- 4 -->
+      <div class="caixa" id="d4">
+        <div class="circulo"></div>
+        <h3 class="pergunta">Pergunta 4</h3>
+        <p>Quais são os três estados da água?</p>
+        <ol type="a">
+          <li>Quente, frio, e morno</li>
+          <li>Leve, médio, e pesado</li>
+          <li>Redondo, quadrado, e triangular</li>
+          <li>Sólido, líquido, e gasoso</li>
+        </ol>
+        <input class="resposta" id="r4" placeholder="Digite a alternativa" />
+        <button class="enviar" id="c4" onclick="conferir4()">Conferir</button>
+        <p class="mudar" id="ce4"></p>
+      </div>
+
+      <!-- 5 -->
+      <div class="caixa" id="d5">
+        <div class="circulo"></div>
+        <h3 class="pergunta">Pergunta 5</h3>
+        <p>O que dá cor ao céu durante o dia?</p>
+        <ol type="a">
+          <li>A Lua</li>
+          <li>O Sol</li>
+          <li>As nuvens</li>
+          <li>As estrelas</li>
+        </ol>
+        <input class="resposta" id="r5" placeholder="Digite a alternativa" />
+        <button class="enviar" id="c5" onclick="conferir5()">Conferir</button>
+        <p class="mudar" id="ce5"></p>
+      </div>
+
+      <!-- 6 -->
+      <div class="caixa" id="d6">
+        <div class="circulo"></div>
+        <h3 class="pergunta">Pergunta 6</h3>
+        <p>Qual é o animal que pode voar <br> e dormir de cabeça para baixo?</p>
+        <ol type="a">
+          <li>Morcego</li>
+          <li>Elefante</li>
+          <li>Pinguim</li>
+          <li>Golfinho</li>
+        </ol>
+        <input class="resposta" id="r6" placeholder="Digite a alternativa" />
+        <button class="enviar" id="c6" onclick="conferir6()">Conferir</button>
+        <p class="mudar" id="ce6"></p>
+      </div>
+
+      <!-- 7 -->
+      <div class="caixa" id="d7">
+        <div class="circulo"></div>
+        <h3 class="pergunta">Pergunta 7</h3>
+        <p>Qual parte do corpo humano é <br> responsável por controlar a respiração?</p>
+        <ol type="a">
+          <li>Cérebro</li>
+          <li>Braço</li>
+          <li>Olho</li>
+          <li>Coração</li>
+        </ol>
+        <input class="resposta" id="r7" placeholder="Digite a alternativa" />
+        <button class="enviar" id="c7" onclick="conferir7()">Conferir</button>
+        <p class="mudar" id="ce7"></p>
+      </div>
+
+      <!-- 8 -->
+      <div class="caixa" id="d8">
+        <div class="circulo"></div>
+        <h3 class="pergunta">Pergunta 8</h3>
+        <p>Qual desses animais vive na água <br> e na terra?</p>
+        <ol type="a">
+          <li>Elefante</li>
+          <li>Baleia</li>
+          <li>Sapo</li>
+          <li>Abelha</li>
+        </ol>
+        <input class="resposta" id="r8" placeholder="Digite a alternativa" />
+        <button class="enviar" id="c8" onclick="conferir8()">Conferir</button>
+        <p class="mudar" id="ce8"></p>
+      </div>
+
+      <!-- 9 -->
+      <div class="caixa" id="d9">
+        <div class="circulo"></div>
+        <h3 class="pergunta">Pergunta 9</h3>
+        <p>O que dá aos vegetais suas <br> cores verdes?</p>
+        <ol type="a">
+          <li>Água</li>
+          <li>Clorofila</li>
+          <li>Sol</li>
+          <li>Ar</li>
+        </ol>
+        <input class="resposta" id="r9" placeholder="Digite a alternativa" />
+        <button class="enviar" id="c9" onclick="conferir9()">Conferir</button>
+        <p class="mudar" id="ce9"></p>
+      </div>
+
+      <!-- 10 -->
+      <div class="caixa" id="d10">
+        <div class="circulo"></div>
+        <h3 class="pergunta">Pergunta 10</h3>
+        <p>Qual é a maior parte do corpo humano?</p>
+        <ol type="a">
+          <li>Cabelo</li>
+          <li>Barriga</li>
+          <li>Perna</li>
+          <li>Pele</li>
+        </ol>
+        <input class="resposta" id="r10" placeholder="Digite a alternativa" />
+        <button class="enviar" id="c10" onclick="conferir10()">Conferir</button>
+        <p class="mudar" id="ce10"></p>
+      </div>
+
+      <!-- 11 -->
+      <div class="caixa" id="d11">
+        <div class="circulo"></div>
+        <h3 class="pergunta">Pergunta 11</h3>
+        <p>Processo pelo qual os insetos <br> passam de larvas para adultos?</p>
+        <ol type="a">
+          <li>Crescimento</li>
+          <li>Evolução</li>
+          <li>Transformação</li>
+          <li>Metamorfose</li>
+        </ol>
+        <input class="resposta" id="r11" placeholder="Digite a alternativa" />
+        <button class="enviar" id="c11" onclick="conferir11()">Conferir</button>
+        <p class="mudar" id="ce11"></p>
+      </div>
+
+      <!-- 12 -->
+      <div class="caixa" id="d12">
+        <div class="circulo"></div>
+        <h3 class="pergunta">Pergunta 12</h3>
+        <p>O que acontece quando você mistura <br> vermelho e amarelo?</p>
+        <ol type="a">
+          <li>Azul</li>
+          <li>Roxo</li>
+          <li>Laranja</li>
+          <li>Preto</li>
+        </ol>
+        <input class="resposta" id="r12" placeholder="Digite a alternativa" />
+        <button class="enviar" id="c12" onclick="conferir12()">Conferir</button>
+        <p class="mudar" id="ce12"></p>
+      </div>
+
+      <div class="pontos">
+        <button id="tpontos" onclick="verPontos()">Ver pontuação</button>
+        <p id="textponto"></p>
+      </div>
+      <div class="pontos">
+        <button id="tpontos" onclick="voltar()">Voltar</button>
+        <p id="textponto"></p>
+      </div>
+    </div>
+
+    <script src="../../js/Jogos_Yuri/quiz.js"></script>
+  </body>
+</html>

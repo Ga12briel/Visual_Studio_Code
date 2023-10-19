@@ -1,0 +1,356 @@
+* {
+  margin-top: auto;
+  padding: 0;
+  background-color: rgb(243, 226, 226);
+  font-family: Comforta, cursive;
+}
+h2 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+h3 {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+.bolinha {
+  background-color: #E64444;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: -168px;
+  margin-left: 39%;
+}
+.input {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+.barco {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+.barco input {
+  margin-top: 10px;
+}
+.oceano {
+  display: flex;
+  flex-direction: row;
+  margin-top: -46px;
+  margin-left: 255px;
+}
+.oceano input {
+  margin-left: 10px;
+}
+.roupa {
+  display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+  margin-left: 521px;
+}
+.roupa input {
+  margin-top: 10px;
+}
+.input.input1 {
+  margin-top: 74px;
+}
+.euro {
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+}
+.euro input {
+  margin-top: 10px;
+  margin-left: 330px;
+}
+.din1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: -30px;
+  margin-left: 64px;
+}
+.din1 input {
+  margin-left: 10px;
+}
+.input.input2 {
+  margin-left: 75px;
+}
+.primeira-cruzada {
+  margin-left: 200px;
+}
+.meninas {
+  margin-top: -400px;
+  margin-left: 50px;
+}
+.meninas img {
+  height:270px;
+  background-color: transparent;
+}
+.seta1 {
+  margin-top: 10px;
+  margin-left: 800px;
+}
+.seta1 img {
+  background-color: transparent;
+  height: 200px;
+}
+.passos1 {
+  margin-top: -50px;
+  margin-left: 750px;
+}
+.passos1 img {
+  width: 400px;
+  background-color: transparent;
+}
+.button1 {
+  width:100px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: -30px
+}
+.ilha {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 1200px;
+}
+.ilha input {
+  margin-top: 10px;
+}
+.agua {
+  display: flex;
+  flex-direction: row;
+  margin-top: -54px;
+  margin-left: 1255px;
+}
+.agua input {
+  margin-left: 10px;
+}
+#priQua7, #segQua7 {
+  border-top: 5px solid black;
+}
+.escravo {
+  display: flex;
+  flex-direction: column;
+  margin-top: -3px;
+  margin-left: 1393px;
+}
+.input.input3 {
+  margin-top: 75px;
+}
+.escravo input {
+  margin-top: 10px;
+}
+.din2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: -40px;
+  margin-left: 1000px;
+}
+.din2 input {
+  margin-left: 10px;
+}
+.input.input4 {
+  margin-left: 72px;
+}
+.input.input5 {
+  margin-left: 75px;
+}
+.button2 {
+  width:100px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 1200px;
+  margin-top: 30px
+}
+.dica1 {
+  margin-top: -1000px;
+  margin-left: 100px;
+}
+.dois {
+  margin-top: -30px;
+  margin-left: 180px;
+}
+.tres {
+  margin-top: -140px;
+  margin-left: 540px;
+}
+.qua {
+  margin-top: -280px;
+  margin-left: 340px;
+}
+.cin {
+  margin-top: -110px;
+  margin-left: 50px;
+}
+.segunda-cruzada {
+  margin-top: 800px;
+  margin-left: 200px;
+}
+#meninas2 {
+  display: none;
+  margin-top: -200px;
+  margin-left: 900px;
+}
+.meninas2 img {
+  height:270px;
+  background-color: transparent;
+}
+.seta2 {
+  margin-top: -100px;
+  margin-left: 700px;
+}
+.seta2 img {
+  background-color: transparent;
+  height: 250px;
+}
+.passos2 {
+  margin-top: -10px;
+  margin-left: 500px;
+}
+.passos2 img {
+  width: 400px;
+  background-color: transparent;
+}
+.dois2 {
+  margin-top: -25px;
+  margin-left: 1180px;
+}
+.tres2 {
+  margin-top: -340px;
+  margin-left: 1400px;
+}
+.qua2 {
+  margin-top: -230px;
+  margin-left: 980px;
+}
+.dica2 {
+  display: none;
+  margin-top: -450px;
+  margin-left: 1200px;
+}
+#terceira-cruzada {
+  margin-top: 200px;
+}
+.pauBra {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+.pauBra input {
+  margin-left: 10px;
+}
+.roupa2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 67px;
+  margin-left: 473px;
+}
+.roupa2 input {
+  margin-top: 10px;
+}
+.dois3 {
+  margin-top: -90px;
+  margin-left: 490px;
+}
+.ind {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  margin-left: 665px;
+}
+.ind input {
+  margin-top: 10px;
+}
+.tres3 {
+  margin-top: -344px;
+  margin-left: 690px;
+}
+.din3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: -25px;
+  margin-left: 527px;
+}
+.din3 input {
+  margin-left: 10px;
+}
+.qua3 {
+  margin-top: -180px;
+  margin-left: 500px;
+}
+.input.input5 {
+  margin-left: 73px
+}
+#meninas3 {
+  display: none;
+  position: absolute;
+  margin-top: -420px;
+  margin-left: 50px;
+}
+.meninas3 img {
+  height:270px;
+  background-color: transparent;
+}
+.button3 {
+  width:100px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 200px;
+  margin-top: 30px
+}
+.passos3 {
+  margin-top: 100px;
+  margin-left: 900px;
+}
+.passos3 img {
+  width: 400px;
+  background-color: transparent;
+}
+.seta3 {
+  margin-top: -370px;
+  margin-left: 800px;
+}
+.seta3 img {
+  background-color: transparent;
+  height: 250px;
+}
+#dica3 {
+  display: none;
+  margin-top: -1100px;
+  margin-left: 50px;
+}
+.divSenha {
+  margin-left: 1200px;
+}
+.senha {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+.senha1 {
+  margin-left: 10%;
+}
+.des {
+  margin-top: 10px;
+  margin-left: 50%;
+  width:100px;
+  height: 50px;
+  font-size: 20px;
+}
+#imge {
+  display: none;
+  margin-top: -200px;
+  margin-left: 1000px;
+}
+.imge img {
+  background-color: transparent;
+}

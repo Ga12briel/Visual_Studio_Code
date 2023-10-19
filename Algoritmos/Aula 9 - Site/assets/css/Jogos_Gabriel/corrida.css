@@ -101,15 +101,17 @@ body.active {
   height: 700px;
   border: 3px solid white;
   margin: 0 auto;
-  background-color: gray;
   overflow: hidden;
+  background-image: url(../../img/backgroundCorrida.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .personagem {
   position: absolute;
   left: 20px;
   bottom: 200px;
-  background-color: red;
   width: 50px;
   height: 300px;
   animation: none;
@@ -155,6 +157,6 @@ body.active {
   }
 
   to {
-    right: 120%;
+    right: 100%;
   }
 }
