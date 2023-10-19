@@ -47,13 +47,18 @@ html {
 body {
   font-family: var(--ff-primary);
   background: var(--c-primary);
-  background-image: url(../img/mat.png);
+  background-image: url(../img/backgroundPadrao.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 body.active {
   overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: auto;
 }
 
 /* --------------------------- */
@@ -64,7 +69,7 @@ body.active {
   display: flex;
   justify-content: center;
   padding-top: 200px
-}
+} 
 
 #circulo {
   margin-top: 10px;
@@ -78,6 +83,24 @@ body.active {
   font-size: 70px;
 }
 
+
 /* --------------------------- */
 /* Main                        */
 /* --------------------------- */
+
+.botoesI {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.botaoI {
+  font-size: 25px;
+  margin: 30px;
+  height: 50px;
+  width: 200px;
+  background-color: #737373;
+  text-align: center;
+  border-radius: 25px;
+  cursor: pointer;
+}
