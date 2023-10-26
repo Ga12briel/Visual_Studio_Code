@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Atividade 1</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h3><a href="../index.html">Voltar para a página inicial.</a></h3>
+    <script>
+      var navegadores1 = new Array('Safari', 'Ie', 'Firefox', 'Chrome', 'Opera');
+      alert(navegadores1[5]);
+
+      var navegadores2 = ['Safari', 'Ie', 'Firefox', 'Chrome', 'Opera'];
+      alert(navegadores2[2]);
+
+      var navegadores3 = new Array();
+      navegadores3[0] = 'Safari';
+      navegadores3[1] = 'IE';
+      navegadores3[2] = 'Firefox';
+      navegadores3[3] = 'Chrome';
+      navegadores3[4] = 'Opera';
+      alert(navegadores3[2]);
+
+      meu_array = new Array();
+      meu_array[0] = 11.5;
+      meu_array[1] = true;
+      meu_array[2] = 'Sou uma string';
+      alert( meu_array[2]);
+
+      var meu_array2 = [11.5, true, 'Sou uma string'];
+      alert(meu_array2[1]);
+
+      var meu_array3 = [11.5, true, 'Sou uma string'];
+      alert(Math.round(meu_array3[0]));
+
+      var meu_array4 = [11.5, true, 'Sou uma string'];
+      meu_array4[0] = Math.round(meu_array4[0])
+      alert(meu_array4[0]);
+
+      var meu_array5 = new Array();
+      meu_array5[0] = 'Olá';
+      alert(meu_array5[0])
+
+      var meu_array7 = new Array();
+      meu_array7[0] = new Array(1, 2, 3, 4);
+      meu_array7[1] = new Array(5, 6, 7);
+      alert(meu_array7[0])
+      alert(meu_array7[1])
+      alert(meu_array7[0][0])
+
+      var meu_array8 = new Array();
+      meu_array8[0] = new Array();
+      meu_array8[0][0] = new Array();
+      meu_array8[0][0][0] = 'Olá';
+      meu_array8[1] = new Array();
+      meu_array8[1][2] = new Array();
+      meu_array8[1][2][0] = 'Me achouuuu!!';
+      alert(meu_array8[0][0][0]);
+
+      var meu_array9 = new Array(
+        Array(
+          Array(
+            'Olá',
+            'Outra chave',
+            'Mais uma chave'
+          ),
+          'Outra chave',
+          'Mais uma chave'
+        ),
+          'Outra chave',
+          'Último'
+      );
+      alert(meu_array9[0]); 
+
+      var meu_array10 = [1, 2, '20', true, false, 'String'];
+      alert(meu_array10.length);
+      
+      var meu_array11 = [0, 1, 2, Array(false, false, false), true, false, 'String'];
+      alert(meu_array11.length);
+
+      var meu_array12 = [0, 1, 2, Array(false, false, false), true, false, 'String'];
+      alert(parseInt(meu_array12[3].length) + parseInt(meu_array12.length) - 1);
+
+      var meu_array13 = ['Cruzeiro', 'Flamengo', 'Atlético', 'São Paulo', 'Corinthians'];
+      var removidos = meu_array13.splice (2,1, 'Internacional', 'Grêmio');
+      document.write( 'Removidos: ' + removidos + '<br>');
+      document.write( 'Meu array: ' + meu_array13 + '<br>');
+
+      var meu_array14 = ['Cruzeiro', 'Flamengo', 'Atlético', 'São Paulo', 'Corinthians'];
+      alert(meu_array14.slice(1, 3));
+    </script>
+  </body> 
+</html>
