@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Atividade 1</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <h3><a href="../../index.html">Voltar para a página inicial.</a></h3>
+    <script>
+      var soma = 0;
+      var media = 0;
+      var nota = [];
+      var num_alunos = prompt("Escreva o número de alunos: ");
+      for (var i = 0; i < num_alunos; i++) {
+        nota[i] = parseInt(prompt(`Escreva a nota do aluno ${i + 1}: `));
+        soma = soma + nota[i];
+      }
+      for (var i = 0; i < num_alunos; i++) {
+        if (nota[i] > media){
+          alert(`O aluno ${i+1} está acima da media, sua nota é ${nota[i]}`)
+        } else {
+          alert(`O aluno ${i + 1} está abaixo da media, sua nota é ${nota[i]}`)
+        }
+      }
+    </script>
+  </body>
+</html>
