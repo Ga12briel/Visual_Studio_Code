@@ -209,3 +209,34 @@ button {
 .overlay.active {
   pointer-events: all;
 }
+
+/* --------------------------- */
+/* MAIN                        */
+/* --------------------------- */
+
+.aliens {
+  background: url('../img/Pobre.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.alien-content {
+  margin-top: 60px;
+  padding-block: 20px;
+}
+
+.alien-subtitle {
+  color: var(--citrine);
+  font-size: var(--fs-4);
+  font-weight: var(--fw-700);
+  margin-bottom: 18px;
+}
+
+.alien-title {
+  margin-bottom: 30px;
+}
