@@ -89,6 +89,76 @@
 
       var meu_array14 = ['Cruzeiro', 'Flamengo', 'Atlético', 'São Paulo', 'Corinthians'];
       alert(meu_array14.slice(1, 3));
+
+      var meu_array15 = ['Cruzeiro', 'Flamengo', 'Atlético', 'São Paulo', 'Corinthians'];
+      var meu_array16 = ['Inter', 'Grêmio'];
+      alert(meu_array15.concat(meu_array16));
+
+      var meu_array17 = ['Cruzeiro', 'Flamengo', 'Atlético', 'São Paulo', 'Corinthians'];
+      alert(meu_array17.join('-'));
+
+      var meu_array18 = ['Cruzeiro', 'Flamengo', 'Atlético', 'São Paulo', 'Corinthians'];
+      alert(meu_array18.reverse());
+
+      var meu_array19 = ['Cruzeiro', 'Flamengo', 'Atlético', 'São Paulo', 'Corinthians'];
+      var n_numero = meu_array19.push('Inter');
+      document.write('Meu array agora tem' + n_numero + ' itens <br>'); 
+      document.write('Novo valor do array: ' + meu_array19 + '<br>');
+    
+      var meu_array20 = ['Cruzeiro', 'Flamengo', 'Atlético', 'São Paulo', 'Corinthians'];
+      var n_numero = meu_array20.unshift("Inter");
+      document.write('Meu array agora tem ' + n_numero + ' itens <br>'); 
+      document.write('Novo valor do array: ' + meu_array20 + '<br>');
+
+      var meu_array21 = ['Cruzeiro', 'Flamengo', 'Atlético', 'São Paulo', 'Corinthians'];
+      var removido = meu_array21.pop();
+      document.write( 'Você removeu: ' + removido + '<br>'); 
+      document.write( 'Novo valor do array: ' + meu_array21 + '<br>');
+
+      var meu_array22 = ['Cruzeiro', 'Flamengo', 'Atlético', 'São Paulo', 'Corinthians'];
+      var removido = meu_array22.shift();
+      document.write( 'Você removeu: ' + removido + '<br>'); 
+      document.write('Novo valor do array: ' + meu_array22 + '<br>' );
+
+      var meu_array23 = ['Cruzeiro', 'Flamengo', 'Atlético', 'São Paulo', 'Corinthians'];
+      document.write('Laço 1: <br>');
+      for (var indice in meu_array23) { document.write(indice + ':'); document.write( meu_array23[ indice ] + '<br>'); }
+      meu_array23.shift();
+      document.write("<br> Laço 2: <br>");
+      for (var indice in meu_array23) { document.write(indice + ':'); document.write( meu_array23[ indice ] + '<br>'); }
+ 
+      var meu_array24 = ['Cruzeiro', 'Flamengo', 'Atlético', 'São Paulo', 'Corinthians'];
+      for (var indice in meu_array24) {
+        document.write(meu_array24[indice]);
+      }
+
+      var meu_array25 = ['Cruzeiro', 'Flamengo', 'Atlético', 'São Paulo', 'Corinthians'];
+      for (var i = 0; i < meu_array25.length; i++) { document.write(meu_array25[i]); }
+
+      const cores = ['azul', 'cinza', 'branco', 'preto']; 
+      console.log(cores[0]);
+      console.log(cores[3]);
+
+      const [cor1, , , cor2] = ['azul', 'cinza', 'branco', 'preto']; 
+      console.log(cor1);
+      console.log(cor2);
+
+      const [cor3, , , cor4, cor5] = ['azul', 'cinza', 'branco', 'preto']; 
+      console.log(cor3);
+      console.log(cor4);
+      console.log(cor5);
+
+      let listafrutas = ['Banana', 'Maçã', 'Morango', 'Uva'];
+      let {0:primeirafruta, 1:segundafruta, 2:terceirafruta, 3:quartafruta} = listafrutas; 
+      console.log(primeirafruta);
+      console.log(segundafruta); 
+      console.log(terceirafruta);
+      console.log(quartafruta);
+      let [fruta1, fruta2, fruta3, fruta4] = listafrutas; 
+      console.log(fruta1);
+      console.log(fruta2);
+      console.log(fruta3);
+      console.log(fruta4);
     </script>
   </body> 
 </html>
