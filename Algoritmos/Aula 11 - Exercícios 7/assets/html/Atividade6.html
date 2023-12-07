@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Atividade 1</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <h3><a href="../../index.html">Voltar para a página inicial.</a></h3>
+    <script>
+      var matriz1 = [[], []];
+      var matriz2 = [[], []];
+      var matriz_soma = [[], []];
+      for (var matriz = 0; matriz < 2; matriz++) {
+        for (var linha = 0; linha < 2; linha++) {
+          for (var coluna = 0; coluna < 3; coluna++) {
+            if (matriz == 1 ) {
+              matriz1[linha][coluna] = parseInt(prompt(`Digite algo para a matriz ${matriz + 1}, linha ${linha + 1} e coluna ${coluna + 1}`))
+            } else {
+              matriz2[linha][coluna] = parseInt(prompt(`Digite algo para a matriz ${matriz + 1}, linha ${linha + 1} e coluna ${coluna + 1}`))
+            }
+          }
+        }
+      }
+      for (var linha = 0; linha < 2; linha++) {
+        for (var coluna = 0; coluna < 3; coluna++) {
+          matriz_soma[linha][coluna] = matriz1[linha][coluna] + matriz2[linha][coluna]
+        }
+      }
+      alert(matriz1)
+      alert(matriz2)
+      alert(matriz_soma)
+    </script>
+  </body>
+</html>
