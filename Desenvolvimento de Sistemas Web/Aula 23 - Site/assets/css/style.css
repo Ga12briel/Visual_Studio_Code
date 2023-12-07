@@ -112,6 +112,11 @@ body.active {
   align-items: center;
 }
 
+.logo img {
+  border: 3px solid black;
+  border-radius: 25px;
+}
+
 .header-actions {
   display: none;
 }
@@ -208,4 +213,35 @@ button {
 
 .overlay.active {
   pointer-events: all;
+}
+
+/* --------------------------- */
+/* MAIN                        */
+/* --------------------------- */
+
+.banner {
+  background: url('../img/banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.banner-content {
+  margin-top: 60px;
+  padding-block: 20px;
+}
+
+.banner-subtitle {
+  color: var(--citrine);
+  font-size: var(--fs-4);
+  font-weight: var(--fw-700);
+  margin-bottom: 18px;
+}
+
+.banner-title {
+  margin-bottom: 30px;
 }
